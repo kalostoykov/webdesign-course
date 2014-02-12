@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+#box{
+        background-color:black;
+        overflow:hidden;
+        display:inline-block;
+        padding:20px;
+}
+#header{
+        background-color:red;
+        width:900px;
+        border:1px solid white;
+        margin-bottom:20px;
+        margin-left:-10px;
+}
+ 
+#content{
+        background-color:yellow;
+        float:left;
+        width: 70%;
+}
+ 
+#sidebar{
+        background-color:green;
+        float:left;
+        width: 30%;
+        margin-left:-10px;
+        margin-right:10px;
+}
+ 
+#footer{
+        float:left;
+        background-color:#C0C;
+        border:1px;
+        border-style:solid;
+        width:101%;
+        margin-top:20px;
+        margin-left:-10px;
+}
