@@ -1,0 +1,9 @@
+.imagecol {
+	float: left;
+	list-style: none;
+}
+
+.imagecol li {
+	margin: 5px;
+	padding: 5px;
+}

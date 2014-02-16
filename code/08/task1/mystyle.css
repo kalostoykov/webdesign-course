@@ -1,0 +1,45 @@
+#Menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+#Menu > li {
+    list-style: none;
+    float: left; 
+    background-color: black;
+}
+
+#Menu li a {
+    display: block;
+    padding: 3px 8px;
+    text-decoration: none; 
+    color: red;
+    font-weight: bold;
+}
+
+#Menu li a:hover {
+    color: blue;
+}
+
+#Menu li ul {
+    display: none;
+}
+#Menu li:hover ul, #Menu li.hover ul {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li a {
+	float: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+.dropdown {
+	list-style: none;
+	background-color: black;
+}
