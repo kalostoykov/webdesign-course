@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My form</title>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+    	<div id="wrapper">
+            <form class="myform">
+                <fieldset>
+                    <legend>My form</legend>
+    
+                    <fieldset>
+                        <legend>Personal information</legend>
+    
+                        <p><label>First Name</label>
+                        <input type="text" required placeholder="First Name"></p>
+
+                        <p><label>Last Name</label>
+                        <input type="text" required placeholder="Last Name"></p>
+
+                        <p><label>Password</label>
+                        <input type="password" required name="pwd" placeholder="Password"></p>
+
+                        <p><label>E-Mail</label>
+                        <input type="email" required placeholder="Email"></p>
+
+                        <p><label >Country</label>
+                        <input type="text" required placeholder="Country"></p>
+
+                        <p><label>Gender</label>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select></p>
+                        
+                        <p><input type="radio" name="age" value="<18"><18 <input type="radio" name="age" value="+18">+18</p>
+    
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Bio</legend>
+                        <p>Add bio here:<br>
+                        <label for="bio" class="bio">
+                            <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+                        </label></p>
+                    </fieldset>
+                    <br>
+                        <label>
+                            <input type="checkbox"> I've read the terms and conditions
+                        </label>
+                        <br>
+                        <button type="submit" required>Submit</button>
+                </fieldset>
+            </form>
+		</div>
+	</body>
+</html>
